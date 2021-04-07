@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<link rel="stylesheet" href="style.css" />
+		<!-- <link rel="stylesheet" href="addBook-style.css" /> -->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Document</title>
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+		/>
+		<link
+			rel="stylesheet"
+			href="https://fonts.googleapis.com/icon?family=Material+Icons"
+		/>
+	</head>
+	<body>
+		<header id="header">Book Management System</header>
+		<nav id="nav">
+			<!-- <a href=""
+				><button class="home-btn" id="home-btn" type="button">
+					<i class="fa fa-home"></i> Home
+				</button></a
+			> -->
+			<button class="home-btn" id="home-btn" type="button">
+				<i class="fa fa-home"></i> Home
+			</button>
+			<!-- <a href=""
+				><button id="add-books" type="button" style="font-size: 20px">
+					<i class="fa fa-plus-square"></i> Add
+				</button></a
+			> -->
+			<button id="add-books" type="button" style="font-size: 20px">
+				<i class="fa fa-plus-square"></i> Add
+			</button>
+			<!-- <button id="book-details-nav" style="font-size: 20px;"><i class="fa fa-book"></i> Details</button> -->
+		</nav>
+
+		<section id="details_section">
+			<div id="search-bar-div">
+				<select class="dropbtn" id="dropdown">
+					<option value="selected">select any one</option>
+					<option value="book_id">Id</option>
+					<option value="book_name">Title</option>
+					<option value="book_author">Author</option>
+				</select>
+				<input
+					type="text"
+					id="searchBar"
+					name="search"
+					placeholder="Search by Id,Name or Author"
+				/>
+				<button id="search-button">
+					Search <i class="fa fa-search" style="color: white"></i>
+				</button>
+				<!-- <button id="show-button">Show Details</button> -->
+			</div>
+			<hr style="border: 1px solid #ddd" />
+			<table id="book-details" style="border-radius: 5px"></table>
+		</section>
+
+		<div id="add-book-page" style="display: none">
+			<section>
+				<div class="add_book_details">
+					<form>
+						<label>Book Name:</label>
+						<input
+							type="text"
+							id="book_name"
+							name="book_name"
+							placeholder="Enter Book Name"
+							required
+						/>
+						<label>Book Author:</label>
+						<input
+							type="text"
+							id="author"
+							name="author"
+							placeholder="Enter Book Author"
+							required
+						/>
+						<label>Book Rating:</label>
+						<input
+							type="number"
+							min="0"
+							max="5"
+							name="rating"
+							id="rating"
+							placeholder="Enter Book Rating"
+							required
+						/>
+						<button id="submit" type="button">Submit</button>
+					</form>
+				</div>
+			</section>
+		</div>
+		<script type="module" src="index.js"></script>
+		<script type="module" src="addBooks.js"></script>
+		<script type="module" src="search.js"></script>
+		<script type="module" src="deleteRow.js"></script>
+	</body>
+</html>

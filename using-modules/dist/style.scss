@@ -1,0 +1,162 @@
+$primary: #4169e1;
+$colorWhite: white;
+
+$sizes: (
+	corners: 4px,
+	input-corners: 6px,
+);
+
+table:hover {
+	border-radius: 10px;
+	box-shadow: 7px 7px grey;
+}
+
+body {
+	margin: 0px;
+	padding: 0px;
+}
+
+.dropbtn {
+	background-color: $primary;
+	color: $colorWhite;
+	border: none;
+	border-radius: map-get($sizes, corners);
+	display: inline;
+	padding: 12px 24px;
+	cursor: pointer;
+}
+
+.dropdown-content a:hover {
+	background-color: #2479f8;
+}
+
+.dropdown:hover .dropbtn {
+	background-color: $primary;
+}
+
+#header {
+	background-color: $primary;
+	font-family: cursive;
+	color: $colorWhite;
+	font-size: 2rem;
+	text-align: center;
+}
+
+#nav {
+	background-color: $primary;
+}
+
+#show-button,
+#search-button,
+.home-btn,
+#add-books,
+#book-details-nav {
+	background-color: $primary;
+	color: $colorWhite;
+	border: none;
+	border-radius: map-get($sizes, corners);
+	padding: 12px 24px;
+}
+.home-btn {
+	font-size: 20px;
+}
+
+#add-books,
+#book-details-nav {
+	float: right;
+}
+
+input[type="text"] {
+	background-color: $colorWhite;
+	border-radius: map-get($sizes, corners);
+	border: 1px solid #ccc;
+	width: 30%;
+	margin-bottom: 5px;
+	box-sizing: border-box;
+	padding: 10px;
+	font-size: 16px;
+}
+
+#search-bar-div {
+	margin: auto;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	margin-top: 2rem;
+	margin-bottom: 2rem;
+}
+
+table {
+	margin: auto;
+	font-family: Arial, Helvetica, sans-serif;
+	border-collapse: collapse;
+}
+
+table th {
+	background-color: $primary;
+	color: $colorWhite;
+}
+
+table tr:nth-child(even) {
+	background-color: #f2f2f2;
+}
+
+#book-details td,
+#book-details th {
+	border: 1px solid #ddd;
+	padding: 10px;
+}
+
+#delete {
+	background-color: inherit;
+	border: none;
+}
+
+#details_section {
+	margin-top: 2rem;
+}
+.delete {
+	cursor: pointer;
+}
+
+.add_book_details input[type="text"],
+input[type="number"] {
+	background-color: white;
+	border-radius: 6px;
+	border: 1px solid #ccc;
+	width: 80%;
+	margin: auto;
+	margin-bottom: 5px;
+	box-sizing: border-box;
+	display: block;
+	padding: 10px;
+	font-size: 16px;
+}
+
+.add_book_details {
+	margin-top: 2rem;
+	border-radius: 6px;
+	border: 2px solid rgb(97, 95, 95);
+	font-family: cursive;
+	width: 40%;
+	font-weight: 400;
+	padding: 50px;
+	margin: auto;
+	box-shadow: 5px 5px 5px grey;
+}
+
+.add_book_details label {
+	display: inline-block;
+	margin: auto;
+}
+
+#submit {
+	margin: auto;
+	display: block;
+	margin-top: 2rem;
+	background-color: royalblue;
+	color: white;
+	border: none;
+	border-radius: 4px;
+	padding: 12px 24px;
+}

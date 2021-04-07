@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<link rel="stylesheet" href="addBook-style.css" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Document</title>
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+		/>
+		<link
+			rel="stylesheet"
+			href="https://fonts.googleapis.com/icon?family=Material+Icons"
+		/>
+	</head>
+	<body>
+		<header id="header">Book Management System</header>
+		<nav id="nav">
+			<a href="index.html"
+				><button class="home-btn"><i class="fa fa-home"></i> Home</button></a
+			>
+			<a href="add-book-details.html">
+				<button id="add-books" style="font-size: 20px">
+					<i class="fa fa-plus-square"></i> Add
+				</button>
+			</a>
+			<button id="book-details-nav" style="font-size: 20px">
+				<i class="fa fa-book"></i> Details
+			</button>
+		</nav>
+		<section>
+			<div class="add_book_details">
+				<form>
+					<label>Book Name:</label>
+					<input
+						type="text"
+						id="book_name"
+						name="book_name"
+						placeholder="Enter Book Name"
+						required
+					/>
+					<label>Book Author:</label>
+					<input
+						type="text"
+						id="author"
+						name="author"
+						placeholder="Enter Book Author"
+						required
+					/>
+					<label>Book Rating:</label>
+					<input
+						type="number"
+						min="0"
+						max="5"
+						name="rating"
+						id="rating"
+						placeholder="Enter Book Rating"
+						required
+					/>
+					<button id="submit" type="submit">Submit</button>
+				</form>
+			</div>
+		</section>
+		<script type="module" src="addBooks.js"></script>
+	</body>
+</html>

@@ -1,0 +1,91 @@
+.home-btn {
+	font-size: 20px;
+}
+
+body {
+	margin: 0px;
+}
+
+nav #book-details-nav,
+#add-books {
+	float: right;
+}
+
+.add_book_details {
+	margin-top: 2rem;
+	border-radius: 6px;
+	border: 2px solid rgb(97, 95, 95);
+	font-family: cursive;
+	width: 40%;
+	font-weight: 400;
+	padding: 50px;
+	margin: auto;
+	box-shadow: 5px 5px 5px grey;
+}
+
+.add_book_details input[type="text"] {
+	background-color: white;
+	border-radius: 6px;
+	border: 1px solid #ccc;
+	width: 80%;
+	margin: auto;
+	margin-bottom: 5px;
+	box-sizing: border-box;
+	display: block;
+	padding: 10px;
+	font-size: 16px;
+}
+
+.add_book_details label {
+	display: inline-block;
+	margin: auto;
+}
+
+input[type="number"] {
+	background-color: white;
+	border-radius: 6px;
+	border: 1px solid #ccc;
+	width: 80%;
+	margin: auto;
+	margin-bottom: 5px;
+	display: block;
+	box-sizing: border-box;
+	padding: 10px;
+	font-size: 16px;
+}
+
+#nav-icon {
+	color: white;
+	margin-left: 20px;
+	float: right;
+}
+
+#submit {
+	margin: auto;
+	display: block;
+	margin-top: 2rem;
+	background-color: royalblue;
+	color: white;
+	border: none;
+	border-radius: 4px;
+	padding: 12px 24px;
+}
+
+#nav {
+	background-color: royalblue;
+	color: white;
+}
+
+#nav button {
+	background-color: Transparent;
+	background-repeat: no-repeat;
+	border: none;
+	color: whitesmoke;
+	padding: 10px;
+	cursor: pointer;
+	overflow: hidden;
+}
+nav #book-details-nav,
+#add-books {
+	float: right;
+}
