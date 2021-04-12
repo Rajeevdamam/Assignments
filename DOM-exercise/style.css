@@ -1,0 +1,13 @@
+#outer {
+	width: 200px;
+	height: 200px;
+	background-color: tomato;
+	border-radius: 10px;
+}
+
+#inner {
+	width: 50%;
+	height: 50%;
+	background-color: aqua;
+	border-radius: 10px;
+}

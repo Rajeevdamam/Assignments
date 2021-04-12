@@ -1,0 +1,38 @@
+{
+	"name": "ajaxrequest",
+	"version": "1.0.0",
+	"description": "",
+	"main": "request.js",
+	"dependencies": {
+		"boxen": "^5.0.1",
+		"ansi-regex": "^4.1.0",
+		"ansi-styles": "^4.3.0",
+		"bytes": "^3.1.0",
+		"array-flatten": "^1.1.1",
+		"camelcase": "^6.2.0",
+		"ci-info": "^2.0.0",
+		"color-convert": "^2.0.1",
+		"cli-boxes": "^2.2.1",
+		"color-name": "^1.1.4",
+		"content-type": "^1.0.4",
+		"cookie": "^0.4.0",
+		"crypto-random-string": "^2.0.0",
+		"cookie-signature": "^1.0.6",
+		"defer-to-connect": "^1.1.3",
+		"depd": "^1.1.2",
+		"deep-extend": "^0.6.0",
+		"destroy": "^1.0.4",
+		"duplexer3": "^0.1.4",
+		"ee-first": "^1.1.1",
+		"emoji-regex": "^7.0.3"
+	},
+	"devDependencies": {
+		"json-server": "^0.16.3"
+	},
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"start": "json-server --watch db.json"
+	},
+	"author": "",
+	"license": "ISC"
+}

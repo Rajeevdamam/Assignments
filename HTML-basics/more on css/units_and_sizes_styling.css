@@ -1,0 +1,30 @@
+html{
+    font-size: 30px;
+}
+
+#div1{
+    width: 10em;
+    /* 10rem; */
+    /* 100vh; */
+    /* 200px; */
+    height: 7em;
+    /* 7rem; */
+    /* 100vh; */
+    /* 200px; */
+    background-color: aqua;
+    border-radius: 10px;
+    border: 2px solid black;
+}
+
+#div2{
+    width: 50%;
+    height: 50%;
+    background-color: hsl(240, 111%, 38%);
+    /* rgba(194, 51, 33,0.8); */
+    border-radius: 10px;
+}
+
+#sample_para{
+    /* border: 2px solid black; */
+    border-left: 5px solid black;
+}

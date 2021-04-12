@@ -1,0 +1,10 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+var message = "hello world";
+console.log(message);
+var title = "My Title";
+var isBegineer = true;
+var num = 20;
+var name = "rajeev";
+var sentence = "My name is " + name + " \nand i am begineer in typescript";
+console.log(sentence);

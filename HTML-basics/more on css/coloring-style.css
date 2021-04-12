@@ -1,0 +1,14 @@
+#div1{
+    width: 200px;
+    height: 200px;
+    background-color: aqua;
+    border-radius: 10px;
+}
+
+#div2{
+    width: 200px;
+    height: 200px;
+    background-color: hsl(240, 111%, 38%);
+    /* rgba(194, 51, 33,0.8); */
+    border-radius: 10px;
+}
